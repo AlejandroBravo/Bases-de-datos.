@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="66448C09-6673-F7FA-278C-8A1D9140B877" name="Arqueologia" seqName="seg_0"/>
+   <object objectType="Table" objectID="3EE0D2F3-6A2E-6B14-65C0-1E549BFD3D62" name="Artistas" seqName="seg_0"/>
+   <object objectType="Table" objectID="CB7CB3A2-AC31-D823-0719-0080BDF60748" name="Bellas artes" seqName="seg_0"/>
+   <object objectType="Table" objectID="FDB1AE1E-AE5B-3808-741D-F7233DA7861C" name="Conservacion" seqName="seg_0"/>
+   <object objectType="Table" objectID="1DF2B1EF-82CB-E7CA-68F8-ADBB262E83B0" name="Desperfectos" seqName="seg_0"/>
+   <object objectType="Table" objectID="21656CFF-98D8-CB64-D7F8-485EA037BB50" name="Etnologia" seqName="seg_0"/>
+   <object objectType="Table" objectID="052D4C8B-9680-4206-0BAF-F93C0382E0FE" name="ID-Artista" seqName="seg_0"/>
+   <object objectType="Table" objectID="48B8301D-8659-3376-754F-1F1BACA0A002" name="Materiales" seqName="seg_0"/>
+   <object objectType="Table" objectID="AF75C324-9F2A-6CA2-B7D2-6CB4CA0F9838" name="Objetos" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="FBA2B9A9-67D3-1C9B-6FB5-D2A42510C40E" name="FK_ASS_1" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="B29CE299-4D68-3B52-AE7E-9BE439B956A4" name="FK_ASS_2" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="FB5A045D-6FBC-89B0-0B6C-B1D3D435BCCB" name="ID-Categoria" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="9031E464-645C-5F16-4C8F-D5F199E15621" name="ID-Categoria" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="22D9B05C-3C54-51D2-D447-9B5917E2837A" name="ID-Categoria" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="1A27F284-C3B8-1328-DCF4-F51219EBDCEE" name="ID-Categoriav1" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="B617273F-8CAB-70D5-7137-2C40DF6DEB18" name="ID-Conservacion" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="05B60FC3-6C33-A5C5-3A53-ADB4C8E7E6C6" name="ID-Conservacion" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="77DBCA51-7DE3-ED69-030F-293098EB8EF6" name="ID-Conservacion" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="9B79CA02-16D5-7A7B-6738-87CE68602AB6" name="ID-Conservacionv1" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="EF029D42-F8AD-DAB2-A01B-AA9EA035AA54" name="ID-Desperfecto" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="3595353F-2A4C-1A16-0EB3-849CFEABBE22" name="ID-Desperfecto" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="AEFEA7ED-B110-51D3-BC55-A6FFE5692441" name="ID-Desperfecto" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="AE8F404F-FDEA-68E8-7998-C9BE0BAE4E8E" name="ID-Desperfectov1" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="669D868E-66CD-739B-967F-43F943CAA954" name="ID-Material" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="D9C1C7C8-6E05-4A8B-4AAE-40D9D669934F" name="ID-Materialv1" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="DEA3860D-8F7B-9067-1B09-30EA5D8B7360" name="ID-Materialv3" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="E8961058-FA5D-356E-78D8-25203E0FB0A9" name="ID-Objeto" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="DE0261C7-10A9-4C93-0B43-DBE9FD72E33D" name="ID-Objeto" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

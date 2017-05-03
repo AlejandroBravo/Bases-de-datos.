@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="707F4F7B-C168-B429-D37C-6C837B1D4818" name="Arqueologia" seqName="seg_0"/>
+   <object objectType="Entity" objectID="9B2D5349-557E-C577-446A-27B98A4B2316" name="Artistas" seqName="seg_0"/>
+   <object objectType="Entity" objectID="BBC38CE4-A801-2207-1118-174A7CA6EBA1" name="Bellas artes" seqName="seg_0"/>
+   <object objectType="Entity" objectID="7C57C63E-C084-AB61-2BE8-22C8DC82233F" name="Conservacion" seqName="seg_0"/>
+   <object objectType="Entity" objectID="BE716E4D-E0E2-DA45-D213-177680C0F6A0" name="Desperfectos" seqName="seg_0"/>
+   <object objectType="Entity" objectID="3E28B6B1-EF9A-CB06-8D18-5E76CA9834F8" name="Etnologia" seqName="seg_0"/>
+   <object objectType="Entity" objectID="2E7A72B5-E021-4EAC-BC92-C680594C26DA" name="Materiales" seqName="seg_0"/>
+   <object objectType="Entity" objectID="C2B0295C-44BA-F59C-A427-93DFB2941BAC" name="Objetos" seqName="seg_0"/>
+   <object objectType="Relation" objectID="AD139897-3331-0E0E-7C11-2D6CB671F1C1" name="ID-Artista" seqName="seg_0"/>
+   <object objectType="Relation" objectID="06DEEB1A-3B7D-EEE0-E800-60EA702601EE" name="ID-Categoria" seqName="seg_0"/>
+   <object objectType="Relation" objectID="56CD1DF0-6ECA-7282-9698-D9BA9253FF63" name="ID-Categoria" seqName="seg_0"/>
+   <object objectType="Relation" objectID="D1904A62-C01C-CDC0-A897-EB56D7CCE9EF" name="ID-Conservacion" seqName="seg_0"/>
+   <object objectType="Relation" objectID="C59A99FF-81A3-3328-848C-5C55AC130E05" name="ID-Conservacion" seqName="seg_0"/>
+   <object objectType="Relation" objectID="2428A160-FABD-96C0-6C6F-24B63B88763D" name="ID-Desperfecto" seqName="seg_0"/>
+   <object objectType="Relation" objectID="9909E825-89A7-9A94-F1CD-EF99A8D9EF18" name="ID-Desperfecto" seqName="seg_0"/>
+   <object objectType="Relation" objectID="B5541BED-37CC-5EF0-5D2A-508487A294E7" name="ID-Material" seqName="seg_0"/>
+   <object objectType="Relation" objectID="290774B0-608A-4A6F-63A8-B89FDE732081" name="ID-Material" seqName="seg_0"/>
+   <object objectType="Relation" objectID="1380FE9B-2293-6640-28DE-87E6148FA07D" name="ID-Material" seqName="seg_0"/>
+   <object objectType="Relation" objectID="B7DFF303-519B-F478-A9E5-15BB994D7C66" name="ID-Objeto" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

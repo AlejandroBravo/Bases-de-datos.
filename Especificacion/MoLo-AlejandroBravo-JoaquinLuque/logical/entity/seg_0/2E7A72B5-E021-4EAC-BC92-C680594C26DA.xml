@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" id="2E7A72B5-E021-4EAC-BC92-C680594C26DA" directorySegmentName="seg_0" name="Materiales">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-02 19:52:53 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MoLo2-AlejandroBravo</ownerDesignName>
+<engineerTo>
+<item key="C2325701-B08A-85A7-E266-A33CF5FE8915" value="true"/>
+</engineerTo>
+<pkName>Materiales PK</pkName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Título</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Atributo</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Tipo de Dato</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Clave Primaria</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Clave Ajena</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Clave Única</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>No Nulo</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Clave</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<attributes>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="ID-Material" id="9A554B61-1E08-44B4-FBFA-684F068FD5D9">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-02 19:52:59 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MoLo2-AlejandroBravo</ownerDesignName>
+<engineerTo>
+<item key="C2325701-B08A-85A7-E266-A33CF5FE8915" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Material" id="56ED1EE2-F5D3-5EF1-C83C-94D18C71406D">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-02 19:53:10 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MoLo2-AlejandroBravo</ownerDesignName>
+<engineerTo>
+<item key="C2325701-B08A-85A7-E266-A33CF5FE8915" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="ID-Etnologia" id="651BF834-EE5B-4198-720A-B67BD966939C">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-03 06:52:19 UTC</createdTime>
+<generatorID>B5541BED-37CC-5EF0-5D2A-508487A294E7</generatorID>
+<ownerDesignName>MoLo2-AlejandroBravo</ownerDesignName>
+<engineerTo>
+<item key="C2325701-B08A-85A7-E266-A33CF5FE8915" value="true"/>
+</engineerTo>
+<referedAttribute>485918B0-3021-C03C-1D29-2DFD486FF419</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="ID-BellasArtes" id="A489056B-ACEF-0D60-BB6F-FB589206596F">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-03 06:54:35 UTC</createdTime>
+<generatorID>290774B0-608A-4A6F-63A8-B89FDE732081</generatorID>
+<ownerDesignName>MoLo2-AlejandroBravo</ownerDesignName>
+<engineerTo>
+<item key="C2325701-B08A-85A7-E266-A33CF5FE8915" value="true"/>
+</engineerTo>
+<referedAttribute>F57A9ADF-AD22-ED2C-D93B-342552197ED1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="ID-Arqueologia" id="CEE67EAF-E05C-A47A-649B-C810FE7418C9">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-03 06:55:10 UTC</createdTime>
+<generatorID>1380FE9B-2293-6640-28DE-87E6148FA07D</generatorID>
+<ownerDesignName>MoLo2-AlejandroBravo</ownerDesignName>
+<engineerTo>
+<item key="C2325701-B08A-85A7-E266-A33CF5FE8915" value="true"/>
+</engineerTo>
+<referedAttribute>490B91DF-AAE8-681C-6BA0-3441F12F8D13</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers>
+<identifier class="oracle.dbtools.crest.model.design.logical.CandidateKey" id="9E32529B-C835-E2E0-9636-34BCC32FA546" name="Materiales PK">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-02 19:53:08 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MoLo2-AlejandroBravo</ownerDesignName>
+<engineerTo>
+<item key="C2325701-B08A-85A7-E266-A33CF5FE8915" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9A554B61-1E08-44B4-FBFA-684F068FD5D9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

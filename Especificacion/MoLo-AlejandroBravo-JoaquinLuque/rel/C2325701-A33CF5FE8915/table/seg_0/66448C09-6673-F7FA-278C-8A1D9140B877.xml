@@ -1,0 +1,277 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="66448C09-6673-F7FA-278C-8A1D9140B877" directorySegmentName="seg_0" name="Arqueologia">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-03 06:59:40 UTC</createdTime>
+<generatorID>707F4F7B-C168-B429-D37C-6C837B1D4818</generatorID>
+<ownerDesignName>MoLo2-AlejandroBravo</ownerDesignName>
+<pkName>Arqueologia PK</pkName>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Título</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Columna</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Tipo de Dato</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Clave Primaria</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Clave Ajena</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Clave Única</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>No Nulo</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Clave</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="ID-Arqueologia" id="07226E5E-0DDA-DC31-511A-8D17C1D6D78D">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-03 06:59:40 UTC</createdTime>
+<generatorID>490B91DF-AAE8-681C-6BA0-3441F12F8D13</generatorID>
+<ownerDesignName>MoLo2-AlejandroBravo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Nombre-Objeto" id="4102BE27-88F8-CB70-4E5C-A67D88634C37">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-03 06:59:40 UTC</createdTime>
+<generatorID>A16D46F4-D49D-3DC5-1511-414AAEFDB9D6</generatorID>
+<ownerDesignName>MoLo2-AlejandroBravo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Dimensiones" id="8F1E7396-9487-53E0-5C57-977E61D89FD8">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-03 06:59:40 UTC</createdTime>
+<generatorID>65864E52-A4CD-E872-9A2D-5019BD5B1A83</generatorID>
+<ownerDesignName>MoLo2-AlejandroBravo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Peso" id="2F098146-2DD1-941A-A841-4CB235B7368B">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-03 06:59:40 UTC</createdTime>
+<generatorID>23D1830C-3A0F-64AC-4F17-66D545A909CE</generatorID>
+<ownerDesignName>MoLo2-AlejandroBravo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Procedencia" id="FA40AA66-90B1-8827-7EA4-4D418B147330">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-03 06:59:40 UTC</createdTime>
+<generatorID>B0754E51-9E5C-D7B4-AA51-BAD79D3509B6</generatorID>
+<ownerDesignName>MoLo2-AlejandroBravo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Comentario" id="E4BDC3AF-0779-A3C2-908C-D6DD74BDD3A8">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-03 06:59:40 UTC</createdTime>
+<generatorID>47F92448-B974-65CF-7F28-1366E20869F8</generatorID>
+<ownerDesignName>MoLo2-AlejandroBravo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Fecha-Ingreso" id="064CC414-4C07-CC74-2454-110498D4D800">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-03 06:59:40 UTC</createdTime>
+<generatorID>7266BFB7-C219-5293-6848-4EA7FA33B916</generatorID>
+<ownerDesignName>MoLo2-AlejandroBravo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Inscripcion" id="12330DB2-B550-901E-59F8-D2F16F4CBA76">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-03 06:59:40 UTC</createdTime>
+<generatorID>5D56DFC0-5EEB-3D4E-939B-A4EDCED91DE4</generatorID>
+<ownerDesignName>MoLo2-AlejandroBravo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="ID-Global" id="93CCAC43-E08C-600B-A907-B2E51910905E">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-03 06:59:40 UTC</createdTime>
+<generatorID>3A79CA9D-24C1-3F2C-A79C-0D6DEC9D82F4</generatorID>
+<ownerDesignName>MoLo2-AlejandroBravo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>B60B93CD-7FC7-A4A8-B996-C611212F27B3</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB5A045D-6FBC-89B0-0B6C-B1D3D435BCCB" referredColumn="B60B93CD-7FC7-A4A8-B996-C611212F27B3"/>
+</associations>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="ID-Conservacion" id="17957812-0765-17F4-D87F-B4E4AE6A6803">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-03 06:59:40 UTC</createdTime>
+<generatorID>61ED21C4-C7E1-E43E-11B8-77780C013E10</generatorID>
+<ownerDesignName>MoLo2-AlejandroBravo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>C16B63F0-A774-4248-8348-1F42EA746673</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="05B60FC3-6C33-A5C5-3A53-ADB4C8E7E6C6" referredColumn="C16B63F0-A774-4248-8348-1F42EA746673"/>
+</associations>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="ID-Desperfecto1" id="85C07628-5E6F-651E-8451-B6442A74A346">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-03 06:59:40 UTC</createdTime>
+<generatorID>EB3D322F-CDF1-DD8F-6136-4DE1B69458B0</generatorID>
+<ownerDesignName>MoLo2-AlejandroBravo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>99A55CD8-812F-9AC8-5D67-0D62463C612E</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3595353F-2A4C-1A16-0EB3-849CFEABBE22" referredColumn="99A55CD8-812F-9AC8-5D67-0D62463C612E"/>
+</associations>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="ID-Material" id="2521C642-61BB-CC96-496A-B4621126C6BD">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-03 06:59:40 UTC</createdTime>
+<generatorID>4962D937-7D7D-FBEF-3DB5-9BFE53767D1F</generatorID>
+<ownerDesignName>MoLo2-AlejandroBravo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="ID-Desperfecto" id="9909F68D-49AF-BCFB-3BF0-73C047ED7B01">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-03 06:59:40 UTC</createdTime>
+<generatorID>83102652-3BAD-73DD-D800-D1691EB08BC7</generatorID>
+<ownerDesignName>MoLo2-AlejandroBravo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="A4ACA0F1-EA10-5A18-ADEB-73BB84E28539" name="Arqueologia PK">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-03 06:59:40 UTC</createdTime>
+<generatorID>07EDBAFE-0A9E-839A-B6B7-5F21C6487DED</generatorID>
+<ownerDesignName>MoLo2-AlejandroBravo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="07226E5E-0DDA-DC31-511A-8D17C1D6D78D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="E3A5D700-E4AA-66E3-1DEC-7C5223060942" name="Arqueologia__IDX">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-03 06:59:40 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MoLo2-AlejandroBravo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<indexColumnUsage>
+<colUsage columnID="93CCAC43-E08C-600B-A907-B2E51910905E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="C7CBF64A-D336-00DA-4462-18AF59773ACB" name="Arqueologia__IDXv1">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-03 06:59:40 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MoLo2-AlejandroBravo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<indexColumnUsage>
+<colUsage columnID="17957812-0765-17F4-D87F-B4E4AE6A6803"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="F78A6FE8-B32C-0812-3C12-086963D62181" name="Arqueologia__IDXv2">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-03 06:59:40 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MoLo2-AlejandroBravo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<indexColumnUsage>
+<colUsage columnID="85C07628-5E6F-651E-8451-B6442A74A346"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="D4DB1DB7-6B1A-7DA1-17ED-FD55AE88146E" name="ID-Categoria">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-03 06:59:40 UTC</createdTime>
+<generatorID>06DEEB1A-3B7D-EEE0-E800-60EA702601EE</generatorID>
+<ownerDesignName>MoLo2-AlejandroBravo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="93CCAC43-E08C-600B-A907-B2E51910905E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="6A501B0E-C115-DA75-3F3F-28F47C985B54" name="ID-Conservacion">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-03 06:59:40 UTC</createdTime>
+<generatorID>D1904A62-C01C-CDC0-A897-EB56D7CCE9EF</generatorID>
+<ownerDesignName>MoLo2-AlejandroBravo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="17957812-0765-17F4-D87F-B4E4AE6A6803"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="D4B42078-203B-1993-DB20-5487850D43A8" name="ID-Desperfecto">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-03 06:59:40 UTC</createdTime>
+<generatorID>2428A160-FABD-96C0-6C6F-24B63B88763D</generatorID>
+<ownerDesignName>MoLo2-AlejandroBravo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="85C07628-5E6F-651E-8451-B6442A74A346"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

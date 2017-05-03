@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="FDB1AE1E-AE5B-3808-741D-F7233DA7861C" directorySegmentName="seg_0" name="Conservacion">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-03 06:59:40 UTC</createdTime>
+<generatorID>7C57C63E-C084-AB61-2BE8-22C8DC82233F</generatorID>
+<ownerDesignName>MoLo2-AlejandroBravo</ownerDesignName>
+<pkName>Conservacion PK</pkName>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Título</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Columna</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Tipo de Dato</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Clave Primaria</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Clave Ajena</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Clave Única</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>No Nulo</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Clave</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="ID-Conservacion" id="C16B63F0-A774-4248-8348-1F42EA746673">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-03 06:59:40 UTC</createdTime>
+<generatorID>A35F459E-8D28-01CF-1B3B-273037A1F748</generatorID>
+<ownerDesignName>MoLo2-AlejandroBravo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Nivel-Conservacion" id="4D79F918-5478-7D3B-092C-C8AFF7EC2562">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-03 06:59:40 UTC</createdTime>
+<comment>Se realizara una escala del 1 al 5, siendo 5 el mejor conservado.</comment>
+<generatorID>BD1FCCC6-5F41-C056-E770-8F816BB264C4</generatorID>
+<ownerDesignName>MoLo2-AlejandroBravo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="ID-Arqueologia" id="FFE9E2A5-F3E6-BE9D-116A-32C9E0A84BEE">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-03 06:59:40 UTC</createdTime>
+<generatorID>B8CF0F56-8133-C664-73DD-2428F647668F</generatorID>
+<ownerDesignName>MoLo2-AlejandroBravo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>07226E5E-0DDA-DC31-511A-8D17C1D6D78D</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B617273F-8CAB-70D5-7137-2C40DF6DEB18" referredColumn="07226E5E-0DDA-DC31-511A-8D17C1D6D78D"/>
+</associations>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="ID-Etnologia" id="2D6A6DFB-7F3D-8099-C4BB-A5D77EE77548">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-03 06:59:40 UTC</createdTime>
+<generatorID>A7CBDFC2-C315-BC31-5480-91B9287540E1</generatorID>
+<ownerDesignName>MoLo2-AlejandroBravo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>DD36BBA7-0AE6-4FBA-A3EC-9A8B6CE432C6</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B79CA02-16D5-7A7B-6738-87CE68602AB6" referredColumn="DD36BBA7-0AE6-4FBA-A3EC-9A8B6CE432C6"/>
+</associations>
+</Column>
+</columns>
+<indexes>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="1524139E-8471-3BFF-C692-DDD507E7F6C6" name="Conservacion PK">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-03 06:59:40 UTC</createdTime>
+<generatorID>1CE310D2-1105-76AA-AE28-6781F2A971AE</generatorID>
+<ownerDesignName>MoLo2-AlejandroBravo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="C16B63F0-A774-4248-8348-1F42EA746673"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="C7614CCF-9BD5-FF4D-A3D0-F6DA25D384D3" name="Conservacion__IDX">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-03 06:59:40 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MoLo2-AlejandroBravo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<indexColumnUsage>
+<colUsage columnID="FFE9E2A5-F3E6-BE9D-116A-32C9E0A84BEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="39146823-AEFF-2351-3D4D-9A30E39288E2" name="Conservacion__IDXv1">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-03 06:59:40 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MoLo2-AlejandroBravo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<indexColumnUsage>
+<colUsage columnID="2D6A6DFB-7F3D-8099-C4BB-A5D77EE77548"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="D264BD57-A126-A877-B0EB-07BF3E51CF18" name="ID-Conservacion">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-03 06:59:40 UTC</createdTime>
+<generatorID>D1904A62-C01C-CDC0-A897-EB56D7CCE9EF</generatorID>
+<ownerDesignName>MoLo2-AlejandroBravo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="FFE9E2A5-F3E6-BE9D-116A-32C9E0A84BEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="61CDEE5F-A2E8-E09B-D953-C5B7E747A4E7" name="ID-Conservacionv1">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-03 06:59:40 UTC</createdTime>
+<generatorID>C59A99FF-81A3-3328-848C-5C55AC130E05</generatorID>
+<ownerDesignName>MoLo2-AlejandroBravo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="2D6A6DFB-7F3D-8099-C4BB-A5D77EE77548"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

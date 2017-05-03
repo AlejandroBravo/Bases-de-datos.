@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ID-Artista" id="AD139897-3331-0E0E-7C11-2D6CB671F1C1" directorySegmentName="seg_0">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-02 19:29:41 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MoLo2-AlejandroBravo</ownerDesignName>
+<engineerTo>
+<item key="C2325701-B08A-85A7-E266-A33CF5FE8915" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>BBC38CE4-A801-2207-1118-174A7CA6EBA1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9B2D5349-557E-C577-446A-27B98A4B2316</targetEntity>
+<transferable>true</transferable>
+</Relation>
