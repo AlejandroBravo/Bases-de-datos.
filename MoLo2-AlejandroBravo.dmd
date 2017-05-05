@@ -1,9 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MoLo2-AlejandroBravo" id="0770EF76-5294-0A9B-56FF-9EE3CEBB1C53" version="3.5">
-<createdBy>conner</createdBy>
-<createdTime>2017-05-02 19:04:01 UTC</createdTime>
-<generatorID>Generado por el Usuario</generatorID>
-<ownerDesignName>MoLo-AlejandroBravo</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>0770EF76-5294-0A9B-56FF-9EE3CEBB1C53</designId>
-</OSDM_Design>
