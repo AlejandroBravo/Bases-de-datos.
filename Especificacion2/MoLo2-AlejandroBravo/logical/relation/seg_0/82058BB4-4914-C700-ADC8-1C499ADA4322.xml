@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Procedencia" id="82058BB4-4914-C700-ADC8-1C499ADA4322" directorySegmentName="seg_0">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-04 13:05:32 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MoLo2-AlejandroBravo</ownerDesignName>
+<engineerTo>
+<item key="C2325701-B08A-85A7-E266-A33CF5FE8915" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>707F4F7B-C168-B429-D37C-6C837B1D4818</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>F197943F-6AEC-027A-2CD2-5C088300B126</targetEntity>
+<transferable>true</transferable>
+</Relation>

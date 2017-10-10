@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ID-Conservacion" id="C59A99FF-81A3-3328-848C-5C55AC130E05" directorySegmentName="seg_0">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-03 06:56:09 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MoLo2-AlejandroBravo</ownerDesignName>
+<engineerTo>
+<item key="C2325701-B08A-85A7-E266-A33CF5FE8915" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3E28B6B1-EF9A-CB06-8D18-5E76CA9834F8</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>7C57C63E-C084-AB61-2BE8-22C8DC82233F</targetEntity>
+<transferable>true</transferable>
+</Relation>
